@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-size: 12px;
+    padding: 0 32px;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+p,h1,h2,h3,h4{
+    color: color('text');
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 500;
+}

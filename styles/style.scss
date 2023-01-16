@@ -1,5 +1,19 @@
+// TIPOGRAPHY RALEWAY
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+
+// IMPORTS TAILWIND
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import './abstracts/reset'
+
+// ABSTRACTS
+@import 
+    './abstracts/colors',
+    './abstracts/functions',
+    './abstracts/reset',
+    './abstracts/backgrounds';
+
+// COMPONENTS
+@import
+    './components/buttons';
