@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
+import Nav from '@/components/general/Nav'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='w-full h-screen flex flex-col justify-start items-center pt-8'>
+      <Nav/>
+      <main className='w-full h-screen flex flex-col justify-start items-center pt-8 px-8'>
         <div className='mb-8'>
           <Image
             src="/img/Header/laptop.png"
