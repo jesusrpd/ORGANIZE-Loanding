@@ -27,10 +27,25 @@ export default function Home() {
         </div>
         <div className='text-center'>
           <h1 className='my-2'>ORGANIZE</h1>
-          <p className='my-2 mb-6'>La mejor forma de organizar tu vida y encontrar el orden que necesitas.</p>
+          <p className='my-2 mb-6 text-base'>La mejor forma de organizar tu vida y encontrar el orden que necesitas.</p>
           <Link href="/" className='btn-purple my-2'>Comenzar</Link>
         </div>
       </main>
+      <section className='w-full h-screen flex flex-col justify-center items-center px-8'>
+        <h2 className='mb-12'>Sobre Nosotros</h2>
+        <div className='mb-12'>
+          <Image
+            src="/img/AboutUs/manAndwoman.png"
+            alt="man and woman img"
+            width={190}
+            height={150}
+          />
+        </div>
+        <div className='text-center mb-12'>
+          <p>Somos una comunidad de desarrolladores, que busca ofrecer a las personas una herramienta para ayudarlos a mejorar su calidad de vida, ofreciéndoles herramientas para mantener un mejor orden y cuidado personal.</p> <br/><br/>
+          <p><span className='remark'>ORGANIZE</span> cuenta con diversas funcionalidades, constantemente actualizamos la plataforma para ofrecer lo mejor a nuestros usuarios.</p>
+        </div>
+      </section>
     </>
   )
 }
